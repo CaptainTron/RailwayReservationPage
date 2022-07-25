@@ -1,0 +1,75 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-image: url(./rail2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.containerleft{
+    padding: 10%;
+    margin: 2% auto;
+}
+.containerleft h1 h2{
+
+}
+.azadi{
+    width:1%;
+}
+.containerleft img{
+    text-align: center;
+    width: 50%;
+    backdrop-filter: blur(5px);
+}
+.containerright{
+    padding: 5% 20% 0 0;
+
+}
+.containerrightbox{
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 1% 7% 15% 7%;
+    box-shadow: 0px 0px  50px black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.containerrightbox .form{
+    display: flex;
+    
+
+    
+}
+.containerrightbox form select{
+    margin: 1% 4% 5% 2%;
+    color: gray;
+}
+.submitbutton{
+    text-align: center;
+    margin: 10% 0 0 5%;
+}
+.hr{
+    color: black;
+}
+footer{
+    text-align: center;
+    font-size: large;
+    animation: vaibhav 2s infinite ;
+    padding: 2% 0 0 0;
+}
+@keyframes vaibhav {
+    0%{color: violet;}
+    25%{color: blueviolet;}
+    50%{color: green;}
+    75%{color: yellow;}
+    100%{color: red;}
+}
